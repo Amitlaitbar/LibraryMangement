@@ -200,7 +200,6 @@ public:
 class his_book
 {
     char book_name[20];
-
 public:
     void get_book()
     {
@@ -394,7 +393,7 @@ public:
         if (day >= 15)
         {
             money = day - 15;
-            cout << "\n \t*******// Sorry,You are crossed the day limit So, You are able to pay the *Fine //********";
+            cout << "\n \t*******// Sorry,You are crossed the day limit So, You have to pay the *Fine //********";
             cout << "\n \tGoto to fine section and pay the *FINE";
             cout << "\n\n\t\t>>>>>>>>>>>Your Fine is:*" << money << " Rs. \n";
             cout << "\n\t\t\t>>>>>>>>>>> !!! Th@nk You !!! <<<<<<<<<<<<<<<";
@@ -452,7 +451,7 @@ public:
             temp1->next1 = nn1;
         }
         cout << "\n-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-";
-        cout << "\n \t\t\t>>>>>>>  Registretion successfull !!!";
+        cout << "\n \t\t\t>>>>>>>  Registration successfull !!!";
         cout << "\n-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-\n\n";
     }
     void put_stud()
@@ -589,8 +588,7 @@ int main()
     student st;
     int ch;
 
-    do
-    {
+    do{
         cout << "\n\n \t==============================================================================";
         cout << "\n\t \t *********** WELCOME TO LIBRARY MANAGEMENT SYSTEMS *Main site***********";
         cout << "\n   \t==============================================================================";
